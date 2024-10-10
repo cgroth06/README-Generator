@@ -19,7 +19,8 @@ Once the repository is downloaded, and node package is installed, initiate the a
 
 ## Usage
 
-NA
+Here is a link to a video Demonstration:
+[README Generator DEMO](https://drive.google.com/file/d/1qm-ZccWhF05TLdPK0uRTo_RRaVLAaVjm/view)
 
 ## Contributions
 
@@ -27,11 +28,12 @@ NA
 
 ## Tests
 
-NA
+Here is a link to a sample README generated using this application: [README Sample](https://drive.google.com/file/d/1N3Zz5NLIXlTlNtRirybYqil05PGZGbiL/view?usp=drive_link)
+
 
 ## Credits
 
-NA
+BSC Learning Assistant helped with clearing up some conlicting parameters and variable names for fucntions near the end of index.js.
 
 ## License
 

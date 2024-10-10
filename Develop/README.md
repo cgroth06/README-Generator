@@ -1,4 +1,4 @@
-#README Generator
+# README Generator
 
 ## Description
 
@@ -19,15 +19,15 @@ Once the repository is downloaded, and node package is installed, initiate the a
 
 ## Usage
 
- Usage Details
+ Link Coming Soon!
 
 ## Contributions
 
-Don't Steal, Give Credit!
+Dont Steal, Give Credit!
 
 ## Tests
 
-tests coming soon!
+Coming soon!
 
 ## Credits
 
