@@ -1,8 +1,8 @@
-#RMG
+#README Generator
 
 ## Description
 
-this
+README Generator will prompt a user in the CLI for information about and app application they are developing in order to create a high-quality , professional README.md.  This application will prompt user for a name, year, title, description, installation instructions, usage, contribution guidlines, test instructions, credits, licenses, and contact information. Following this submission, a README file will be written and saved. 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,23 +15,23 @@ this
 
 ## Installation
 
-do this
+Once the repository is downloaded, and node package is installed, initiate the app using 'node index'.
 
 ## Usage
 
-url
+tbd
 
 ## Contributions
 
-DSGC
+tbd
 
 ## Tests
 
-test here
+tbd
 
 ## Credits
 
-undefined
+NA
 
 ## License
 
@@ -39,7 +39,7 @@ undefined
 
 The MIT License
 
-Copyright 2024 chris groth
+Copyright 2024 Chris Groth
 
 https://opensource.org/licenses/MIT
 
@@ -53,4 +53,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 GitHub Username: cgroth06
 
-Email: groth@
+Email: christopher.m.groth@gmail.com

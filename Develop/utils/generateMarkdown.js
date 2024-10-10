@@ -1,3 +1,5 @@
+
+// license option details array
 const licenseOption = [
   {
     name: 'mit',
@@ -101,42 +103,39 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.`
   }
 ]
-
+//returns name of license chosen in prompt
 function renderLicense(license) {
   return licenseOption.find(option => option.name === license);
 }
 
 
-
+// returns title of license chosen in prompt
 function renderLicenseTitle(license) {
   const selectedLicense = renderLicense(license);
   return selectedLicense ? selectedLicense.title : '';
 
 }
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// returns image of License chosen in prompt with asset folder location
 function renderLicenseBadge(license) {
   const selectedLicense = renderLicense(license);
   return selectedLicense ? selectedLicense.image : '';
  
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//returns URL of License chosen in prompt
 function renderLicenseLink(license) {
   const selectedLicense = renderLicense(license);
     return selectedLicense ? selectedLicense.link : '';
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//returns the details of the license chosen in prompt
 function renderLicenseSection(license) {
   const selectedLicense = renderLicense(license);
   return selectedLicense ? selectedLicense.text : '';
 }
 
-// TODO: Create a function to generate markdown for README
+// function to fill the template literal for readme styling with chosen prompt answers
 function generateMarkdown(data) {
   const selectedLicense = renderLicense(data.license);
   return `#${data.title}
