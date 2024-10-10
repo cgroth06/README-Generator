@@ -120,13 +120,13 @@ function renderLicenseTitle(license) {
 function renderLicenseBadge(license) {
   const selectedLicense = renderLicense(license);
   return selectedLicense ? selectedLicense.image : '';
- 
+
 }
 
 //returns URL of License chosen in prompt
 function renderLicenseLink(license) {
   const selectedLicense = renderLicense(license);
-    return selectedLicense ? selectedLicense.link : '';
+  return selectedLicense ? selectedLicense.link : '';
 }
 
 //returns the details of the license chosen in prompt
