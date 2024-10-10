@@ -138,7 +138,7 @@ function renderLicenseSection(license) {
 // function to fill the template literal for readme styling with chosen prompt answers
 function generateMarkdown(data) {
   const selectedLicense = renderLicense(data.license);
-  return `#${data.title}
+  return `# ${data.title}
 
 ## Description
 
